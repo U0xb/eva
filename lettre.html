@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ma lettre pour toi</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/lettre.css" />
+</head>
+<body>
+
+<div class="hearts-bg" id="heartsBg"></div>
+
+<a class="back-btn" href="index.html">← Retour</a>
+
+<!-- ══════════════════ 1 · LETTRE ══════════════════ -->
+<section class="letter-section" id="letterSection">
+
+  <div class="envelope-wrap" id="envelopeWrap" onclick="openLetter()">
+    <div class="env">
+      <div class="env-bottom-l"></div>
+      <div class="env-bottom-r"></div>
+      <div class="env-flap" id="envFlap"></div>
+      <div class="env-seal" id="envSeal">
+        <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="30" cy="30" r="27" fill="#8b1a2a"/>
+          <circle cx="30" cy="30" r="23" fill="none" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="4,2.5"/>
+          <path d="M30 22 C27 16,16 18,16 26 C16 35,30 44,30 44 C30 44,44 35,44 26 C44 18,33 16,30 22Z" fill="#c9a84c"/>
+        </svg>
+      </div>
+    </div>
+    <span class="tap-hint">Clique pour ouvrir ta lettre…</span>
+  </div>
+
+  <div class="letter-card" id="letterCard">
+    <h2>Eva, l'amour de ma vie,</h2>
+
+    <!-- Photo 1 — depuis la droite -->
+    <div class="letter-row">
+      <div class="letter-chunk">
+        <h3>Notre première rencontre</h3>
+        <p>Ce moment où tout a commencé. Ce regard, ce sourire. Je ne savais pas encore que tu allais changer ma vie, mais quelque chose en moi l'avait déjà compris.</p>
+      </div>
+      <div class="lp-slide from-right">
+        <div class="letter-photo">
+          <img src="images/photo1.jpg" alt="Première rencontre" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>🌟</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 2 — depuis la gauche -->
+    <div class="letter-row row-rev">
+      <div class="letter-chunk">
+        <h3>Notre première date</h3>
+        <p>Le trac, l'excitation, les heures qui passaient trop vite. J'aurais voulu que cette soirée ne se termine jamais. C'était le début de tout.</p>
+      </div>
+      <div class="lp-slide from-left">
+        <div class="letter-photo">
+          <img src="images/photo2.jpg" alt="Première date" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>🌹</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 3 — depuis la droite -->
+    <div class="letter-row">
+      <div class="letter-chunk">
+        <h3>Notre première photo</h3>
+        <p>La première fois qu'on a figé un instant ensemble. Ce cliché, c'est la preuve que ce bonheur-là a vraiment existé et qu'il ne faisait que commencer.</p>
+      </div>
+      <div class="lp-slide from-right">
+        <div class="letter-photo">
+          <img src="images/photo3.jpg" alt="Première photo" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>📷</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 4 — depuis la gauche -->
+    <div class="letter-row row-rev">
+      <div class="letter-chunk">
+        <h3>Notre premier objet</h3>
+        <p>Un petit rien qui représente tout. Ce premier objet me permet de t'avoir toujours auprès de moi. </p>
+      </div>
+      <div class="lp-slide from-left">
+        <div class="letter-photo">
+          <img src="images/photo4.jpg" alt="Premier objet" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>🎁</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 5 — depuis la droite -->
+    <div class="letter-row">
+      <div class="letter-chunk">
+        <h3>Notre première carte postale</h3>
+        <p>Ces quelques mots écrits à la main, c'est une preuve que même loin, tu pensais à moi. Je la garde précieusement.</p>
+      </div>
+      <div class="lp-slide from-right">
+        <div class="letter-photo">
+          <img src="images/photo5.jpg" alt="Première carte postale" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>💌</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 6 — depuis la gauche -->
+    <div class="letter-row row-rev">
+      <div class="letter-chunk">
+        <h3>Notre premier « je t'aime »</h3>
+        <p>Ces trois mots qui ont tout changé. Je me souviens encore de l'instant exact, mon cœur qui s'emballe, et le tien qui répondait. Ce soir-là, on est devenus nous.</p>
+      </div>
+      <div class="lp-slide from-left">
+        <div class="letter-photo">
+          <img src="images/photo6.jpg" alt="Premier je t'aime" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>❤️</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 7 — depuis la droite -->
+    <div class="letter-row">
+      <div class="letter-chunk">
+        <h3>Notre première activité ensemble</h3>
+        <p>On a découvert qu'on aimait faire des choses ensemble. Pas juste être ensemble, mais vraiment partager, rire, créer. Ce jour-là, on a ajouté une nouvelle couleur à notre histoire.</p>
+      </div>
+      <div class="lp-slide from-right">
+        <div class="letter-photo">
+          <img src="images/photo7.jpg" alt="Première activité" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>🎉</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 8 — depuis la gauche -->
+    <div class="letter-row row-rev">
+      <div class="letter-chunk">
+        <h3>Les débuts de la vie à deux</h3>
+        <p>Construire un chez-nous ensemble, vivre ensemble, c'est la plus belle des aventures. Notre quotidien est devenu mon endroit préféré.</p>
+      </div>
+      <div class="lp-slide from-left">
+        <div class="letter-photo">
+          <img src="images/photo8.jpg" alt="Vie à deux" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>🏠</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Photo 9 — depuis la droite -->
+    <div class="letter-row">
+      <div class="letter-chunk">
+        <h3>Notre premier Crousty One</h3>
+        <p>Parce que les grands moments de la vie, parfois, ressemblent à ça. Toi, moi, et un Crousty One. Même les petits rituels deviennent précieux quand c'est avec toi.</p>
+      </div>
+      <div class="lp-slide from-right">
+        <div class="letter-photo">
+          <img src="images/photo9.jpg" alt="Premier Crousty One" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+          <div class="lp-placeholder" style="display:none;"><span>🍗</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="letter-sign">Je t'aime et t'aimerai pour toujours,<br/>Redouane</p>
+  </div>
+
+  <div class="scroll-hint" id="scrollHint" style="display:none;">
+    ↓ Descends pour la suite ↓
+  </div>
+</section>
+
+<!-- ══════════════════ 2 · VIDÉO ══════════════════ -->
+<section class="video-section">
+  <h2>Notre histoire en images</h2>
+  <p class="vs-sub">Un an de moments précieux, rien que pour toi.</p>
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/7f3c_dTWUg8?rel=0"
+      title="Notre histoire"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p class="scroll-hint-video">↓ Redescends pour la suite ↓</p>
+</section>
+
+<!-- ══════════════════ 3 · ROUE ══════════════════ -->
+<section class="wheel-section">
+  <h2>Qu'est-ce qu'on fait ensemble&nbsp;?</h2>
+  <p class="ws-sub">Découvre les activités ci-dessous, puis tourne la roue pour laisser le sort choisir…</p>
+
+  <!-- grille des activités -->
+  <div id="dest-grid"></div>
+
+  <!-- roue -->
+  <div class="wheel-container">
+    <div class="wheel-wrapper">
+      <div class="wheel-pointer">▼</div>
+      <canvas id="wheelCanvas" width="420" height="420"></canvas>
+    </div>
+    <button class="spin-btn" id="spinBtn" onclick="spinWheel()">Tourner !</button>
+  </div>
+
+  <div id="result-card" style="margin-top:48px;">
+    <div class="result-hero" id="result-hero"></div>
+    <div class="result-body">
+      <h3 id="result-name"></h3>
+      <span class="dest-tag" id="result-tag"></span>
+      <p id="result-desc"></p>
+      <p id="result-tips"></p>
+      <div class="highlights" id="result-highlights"></div>
+      <button class="spin-again" onclick="resetWheel()">↺ Retourner la roue</button>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════ LIGHTBOX ══════════════════ -->
+<div id="lightbox" onclick="closeLightbox()">
+  <button class="lb-close" onclick="event.stopPropagation();closeLightbox()">✕</button>
+  <img id="lb-img" src="" alt=""/>
+</div>
+
+<!-- ══════════════════ FOOTER ══════════════════ -->
+<footer class="love-footer">
+  <span class="lf-deco">✦</span>
+  <p class="lf-text">Merci d'être toi,<br/>merci d'être là,<br/>merci d'être à moi.</p>
+  <p class="lf-sign">Je t'aime,<br/><span>Redouane</span></p>
+</footer>
+
+<script src="js/lettre.js"></script>
+</body>
+</html>
