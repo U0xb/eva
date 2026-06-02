@@ -1,0 +1,38 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,400&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Fond nuit profond -->
+  <rect width="64" height="64" rx="12" fill="#0d0b14"/>
+
+  <!-- Étoiles -->
+  <circle cx="12" cy="13" r="0.9" fill="#f0d0e0" opacity="0.55"/>
+  <circle cx="50" cy="10" r="1.1" fill="#f0d0e0" opacity="0.6"/>
+  <circle cx="55" cy="47" r="0.7" fill="#c9a84c" opacity="0.5"/>
+  <circle cx="8"  cy="48" r="0.8" fill="#f0d0e0" opacity="0.4"/>
+  <circle cx="57" cy="30" r="0.6" fill="#f0d0e0" opacity="0.35"/>
+
+  <!-- Ligne décorative fine dorée -->
+  <line x1="10" y1="40" x2="54" y2="40" stroke="#c9a84c" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- "Eva" en italic serif -->
+  <text x="32" y="37"
+        text-anchor="middle"
+        font-family="'Cormorant Garamond', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif"
+        font-size="24"
+        font-weight="400"
+        font-style="italic"
+        fill="#f2c8d8"
+        letter-spacing="1.5">Eva</text>
+
+  <!-- Petit coeur -->
+  <text x="32" y="53"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="12"
+        fill="#c9607a"
+        opacity="0.85">♡</text>
+</svg>

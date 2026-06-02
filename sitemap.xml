@@ -7,15 +7,21 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://evavanhh.fr/lettre.html</loc>
+    <loc>https://evavanhh.fr/1-an/2026/</loc>
     <lastmod>2026-06-02</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://evavanhh.fr/saint-valentin-2026.html</loc>
-    <lastmod>2026-02-13</lastmod>
+    <loc>https://evavanhh.fr/1-an/2026/lettre.html/</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://evavanhh.fr/saint-valentin/2026/</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
 </urlset>

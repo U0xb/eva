@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(Move-Item -Path \"js\\\\generate-sitemap.js\" -Destination \"generate-sitemap.js\")",
-      "PowerShell(Move-Item -Path \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\js\\\\generate-sitemap.js\" -Destination \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\generate-sitemap.js\")"
+      "PowerShell(Move-Item -Path \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\js\\\\generate-sitemap.js\" -Destination \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\generate-sitemap.js\")",
+      "Bash(git mv *)",
+      "Bash(grep -E \"\\\\.\\(css|js\\)$\")"
     ]
   }
 }

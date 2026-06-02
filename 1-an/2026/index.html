@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pour Eva 💕</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Pour Eva 💕">
+  <meta property="og:description" content="Un compte à rebours spécialement créé pour toi, pour notre premier anniversaire ensemble.">
+  <meta property="og:url" content="https://evavanhh.fr/1-an/2026/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:image" content="https://evavanhh.fr/1-an/2026/images/banner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1730">
+  <meta property="og:image:height" content="909">
+  <meta property="og:image:alt" content="Pour Eva - Notre premier anniversaire">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pour Eva 💕">
+  <meta name="twitter:description" content="Un compte à rebours spécialement créé pour toi, pour notre premier anniversaire ensemble.">
+  <meta name="twitter:image" content="https://evavanhh.fr/1-an/2026/images/banner.png">
+  <meta name="twitter:image:alt" content="Pour Eva - Notre premier anniversaire">
+
+  <!-- Données structurées -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Pour Eva",
+    "description": "Un compte à rebours spécialement créé pour notre premier anniversaire ensemble. Que se passera t-il quand il tombera à zéro ?",
+    "url": "https://evavanhh.fr",
+    "author": {
+      "@type": "Person",
+      "name": "Redouane Saraoui"
+    }
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="../../favicon_eva.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+
+<div class="hearts-bg" id="heartsBg"></div>
+
+<div class="card" id="mainCard">
+  <p class="title-small">Pour toi,</p>
+  <h1 class="title-big">Eva</h1>
+
+  <div class="countdown" id="countdown">
+    <div class="unit"><span class="unit-num" id="cd-days">000</span><span class="unit-label">Jours</span></div>
+    <div class="unit"><span class="unit-num" id="cd-hours">00</span><span class="unit-label">Heures</span></div>
+    <div class="unit"><span class="unit-num" id="cd-mins">00</span><span class="unit-label">Minutes</span></div>
+    <div class="unit"><span class="unit-num" id="cd-secs">00</span><span class="unit-label">Secondes</span></div>
+  </div>
+
+  <p class="sub">avant notre premier anniversaire ensemble&nbsp;✨</p>
+</div>
+
+<div id="flash"></div>
+<canvas id="fx-canvas"></canvas>
+
+<div id="celebration">
+  <div class="cele-ring">
+    <p class="cele-title">Un an déjà&nbsp;! 🎉</p>
+  </div>
+  <p class="cele-sub">
+    Un an de bonheur, de rires, de complicité…<br/>
+    Tu comptes tellement pour moi, Eva.<br/>
+    Joyeux anniversaire, mon amour.
+  </p>
+  <button class="btn-enter" onclick="window.location.href='lettre.html'">
+    Découvrir ta surprise →
+  </button>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
