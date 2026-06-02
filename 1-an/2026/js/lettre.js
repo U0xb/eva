@@ -82,51 +82,51 @@ const DESTINATIONS = [
   {
     name: 'Pique-nique', tag: 'En plein air', color: '#f4b8c1',
     svg: `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" fill="#000000"><g><rect x="10.199" y="228.645" style="fill:#FF7731;" width="491.602" height="62.593"/><path style="fill:#FF7731;" d="M482.422,291.243H29.578v85.334c0,66.844,54.187,121.031,121.031,121.031h210.784c66.843-0.001,121.03-54.188,121.03-121.031V291.243z"/></g><rect x="361.613" y="56.441" style="fill:#BDCED4;" width="50.068" height="50.905"/><path style="fill:#FF2E48;" d="M455.075,209.154c0-23.966-19.428-43.395-43.395-43.395v-58.416H361.61v58.416c-23.966,0-43.395,19.428-43.395,43.395v19.495h136.86V209.154z"/><rect x="224.607" y="14.39" style="fill:#FF7731;" width="62.786" height="276.847"/><rect x="58.135" y="173.273" style="fill:#BDCED4;" width="138.709" height="55.382"/><path d="M501.801,218.451h-36.526v-9.296c0-26.065-18.704-47.844-43.396-52.62v-49.191V56.438c0-5.633-4.567-10.199-10.199-10.199h-50.071c-5.632,0-10.199,4.566-10.199,10.199v50.905v49.191c-24.69,4.776-43.394,26.555-43.394,52.62v9.296H297.59V14.391c0-5.633-4.567-10.199-10.199-10.199h-62.783c-5.632,0-10.199,4.566-10.199,10.199v204.06h-7.365v-45.177c0-5.633-4.567-10.199-10.199-10.199H58.135c-5.632,0-10.199,4.566-10.199,10.199v45.177H10.199C4.567,218.451,0,223.017,0,228.65v62.595c0,5.633,4.567,10.199,10.199,10.199h9.179v75.134c0,72.36,58.87,131.23,131.23,131.23h210.783c72.36,0,131.23-58.87,131.23-131.23v-75.134h9.179c5.632,0,10.199-4.566,10.199-10.199V228.65C512,223.017,507.433,218.451,501.801,218.451z M371.809,66.638h29.673v30.507h-29.673V66.638z M328.414,209.154c0-18.303,14.892-33.195,33.195-33.195c5.632,0,10.199-4.566,10.199-10.199v-48.217h29.673v48.217c0,5.633,4.567,10.199,10.199,10.199c18.305,0,33.196,14.892,33.196,33.195v9.296H328.414V209.154z M297.59,281.044v-42.196h194.011v42.196H297.59z M234.808,24.59h42.385v256.454h-42.385L234.808,24.59L234.808,24.59z M68.335,183.471h118.311v34.978H68.335V183.471z M20.398,281.044v-42.196H214.41v42.196H20.398z M472.223,301.443v75.134c0,61.113-49.719,110.832-110.832,110.832H150.609C89.496,487.408,39.777,437.69,39.777,376.577v-75.134H472.223z"/><path d="M386.55,343.599h12.239c5.632,0,10.199-4.566,10.199-10.199c0-5.633-4.567-10.199-10.199-10.199H386.55c-5.632,0-10.199,4.566-10.199,10.199C376.351,339.033,380.918,343.599,386.55,343.599z"/><path d="M62.215,333.4c0,5.633,4.567,10.199,10.199,10.199h269.259c5.632,0,10.199-4.566,10.199-10.199c0-5.633-4.567-10.199-10.199-10.199H72.414C66.782,323.201,62.215,327.767,62.215,333.4z"/><path d="M398.789,371.137H72.414c-5.632,0-10.199,4.566-10.199,10.199s4.567,10.199,10.199,10.199h326.375c5.632,0,10.199-4.566,10.199-10.199S404.421,371.137,398.789,371.137z"/><path d="M398.789,419.073H94.853c-5.632,0-10.199,4.566-10.199,10.199s4.567,10.199,10.199,10.199h303.936c5.632,0,10.199-4.566,10.199-10.199S404.421,419.073,398.789,419.073z"/></svg>`,
-    desc: "Une couverture posée dans l'herbe, un panier rempli de petites douceurs préparées ensemble, et rien d'autre à faire que de profiter de l'instant. Pas de table, pas de restaurant — juste le ciel au-dessus de nous, le soleil qui réchauffe, et le temps qui s'arrête. C'est dans ces moments simples qu'on se rappelle à quel point on est bien l'un avec l'autre.",
+    desc: "Je t'emmène poser une couverture dans l'herbe, avec un panier que j'aurai préparé rien que pour toi. Pas de restaurant, pas de bruit — juste toi, moi, le ciel au-dessus, et le temps qui s'arrête. C'est dans ces moments-là, sans rien de particulier à faire, que je réalise à quel point j'aime être avec toi.",
     highlights: ['Plein air', 'Fait maison', 'Moment calme', 'Juste nous deux', 'Soleil'],
-    tips: "Prépare le panier à deux la veille — c'est déjà une partie du plaisir. Un coin au bord de l'eau et une playlist douce, c'est parfait.",
+    tips: "Je prépare le panier la veille — pour que tu n'aies qu'à profiter. Un coin au bord de l'eau, une playlist douce, et toi à côté de moi.",
   },
   {
     name: 'Cuisine', tag: 'Atelier', color: '#f7c87e',
     svg: `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 508 508" fill="#000000"><path style="fill:#FD8469;" d="M508,254c0,84.4-41.2,159.2-104.8,205.6C361.6,490,310,508,254,508c-7.6,0-14.8-0.4-22-0.8c-47.2-4-90.8-21.2-127.2-47.6C41.2,413.2,0,338.4,0,254C0,113.6,113.6,0,254,0S508,113.6,508,254z"/><path style="fill:#2B3B4E;" d="M342,255.6c0,58.8-39.2,118.4-88,118.4s-88-59.6-88-118.4c0-59.2,39.6-95.2,88-95.2C302.8,160,342,196.4,342,255.6z"/><path style="fill:#CED5E0;" d="M405.6,431.6c0,8.8-0.8,18.4-2.4,28C361.6,490,310,508,254,508c-7.6,0-14.8-0.4-22-0.8c-47.2-4-90.8-21.2-127.2-47.6c-1.6-9.6-2.4-18.8-2.4-28c0-82.4,68-105.2,151.6-105.2C337.6,326.4,405.6,349.2,405.6,431.6z"/><path style="fill:#E6E9EE;" d="M405.6,431.6c0,8.8-0.8,18.4-2.4,28C361.6,490,310,508,254,508c-7.6,0-14.8-0.4-22-0.8V382.4l61.2-54C358,335.2,405.6,362.4,405.6,431.6z"/><path style="fill:#F9B54C;" d="M298.4,330.4c-0.4-0.4-0.4-0.8-0.8-1.6c0,0-0.8,3.6-5.2,9.6c-19.6,24.4-57.2,24.4-76.8,0c-4.4-5.6-5.2-9.6-5.2-9.6c-0.4,0.4-0.4,0.8-0.8,1.2c1.6-2.8,2.4-6,2.8-9.6l0.8-12.8l0,0L216,268h75.2l4,52.4c0,2.8,0.8,5.6,2,8C298,329.2,298,330,298.4,330.4z"/><path style="fill:#FFD05B;" d="M322,243.6c-1.6-0.8-4-0.8-6,0c0-0.8,0-1.6,0-2.4c0-42.4-27.6-58-62-58s-62,15.6-62,58c0,0.8,0,1.6,0,2.4c-2-0.8-4-0.8-6,0c-5.2,2.8-6,13.2-1.6,22.8c3.6,8,9.2,13.2,14.4,13.6c10,30.4,31.2,56.8,55.2,56.8s45.2-26.4,55.2-57.2c4.8,0,10.8-5.2,14.4-13.6C328,256.4,327.2,246.4,322,243.6z"/><g><path style="fill:#2B3B4E;" d="M304.8,316.8c3.6-24.4-2.8-42-5.2-54.4c-2.8-15.6-15.6-28-31.6-30.8c-52.4-9.2-58-44-58-44l39.6-14.4l57.2,14.4l19.6,36l8,45.2l-15.6,44.4L304.8,316.8z"/><path style="fill:#2B3B4E;" d="M196.4,289.2c0,0,12.8-62.8,50-92c37.2-29.6-18-18.8-18-18.8L200,188.8l-23.2,44L174,286L196.4,289.2z"/></g><g><path style="fill:#FFFFFF;" d="M362.8,91.6c0-23.2-18.8-42-42-42c-12,0-23.2,5.2-30.8,13.2C285.2,45.2,268.8,32,249.6,32c-17.2,0-32,10.4-38.4,25.2c-6.8-4.8-15.2-8-24.4-8c-23.2,0-42,18.8-42,42c0,14.8,7.6,28,19.6,35.6c4.4,18,8.8,37.2,13.6,58c-0.8,0-2,0-2.8,0.4c-2.4,0.4-4,2.4-3.6,4.8c0.8,6.4,1.6,12.4,2.4,18.8c0.4,2.4,2.4,4,4.8,3.6c50.4-6,101.2-6,151.2,0c2.4,0.4,4.4-1.2,4.8-3.6c0.8-6.4,1.6-12.4,2.4-18.8c0.4-2.4-1.2-4.4-3.6-4.8c-0.8,0-2,0-2.8-0.4c4.8-20.8,9.2-40.4,13.6-58C355.2,119.6,362.8,106.4,362.8,91.6z"/><circle style="fill:#FFFFFF;" cx="254" cy="398.4" r="11.6"/><circle style="fill:#FFFFFF;" cx="292.4" cy="398.4" r="11.6"/><circle style="fill:#FFFFFF;" cx="254" cy="432" r="11.6"/><circle style="fill:#FFFFFF;" cx="292.4" cy="432" r="11.6"/><circle style="fill:#FFFFFF;" cx="254" cy="465.6" r="11.6"/><circle style="fill:#FFFFFF;" cx="292.4" cy="465.6" r="11.6"/></g></svg>`,
-    desc: "On enfile les tabliers et on suit un vrai cours de cuisine ensemble — guidés par un chef, on apprend des techniques qu'on n'aurait jamais osé essayer seuls. Entre la concentration, les petits ratés et la fierté de dresser une assiette digne d'un restaurant, c'est une expérience qu'on vit à deux et qu'on ramène à la maison. Et le meilleur moment ? Déguster ce qu'on a préparé, ensemble.",
+    desc: "Je veux qu'on enfile les tabliers et qu'on suive un vrai cours de cuisine ensemble. Guidés par un chef, on va apprendre des techniques qu'on n'aurait jamais osées seuls — et entre les petits ratés, la concentration et la fierté de dresser une belle assiette, je sais qu'on va beaucoup rire. Le meilleur moment ? Déguster ensemble ce qu'on aura cuisiné.",
     highlights: ['Tabliers', 'Recette inédite', 'Fous rires', 'Dégustation', 'Complicité'],
-    tips: "Cherche un cours de cuisine en soirée pour couples — pâtisserie, sushis ou pasta. Pense à réserver à l'avance, les créneaux partent vite.",
+    tips: "J'ai prévu un cours en soirée pour couples — pâtisserie, sushis ou pasta. J'y penserai à l'avance, les créneaux partent vite.",
   },
   {
     name: 'Spa', tag: 'Détente', color: '#c9b8e8',
     svg: `<svg fill="#000000" viewBox="0 0 50 50" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" overflow="inherit"><path d="M47.231 41h-16.231v4h16.397c1.348 0 1.603-1.175 1.603-1.175v-.97s-.012-1.855-1.769-1.855zm-2.245-.79c2.214 0 4.014-1.802 4.014-4.022 0-2.227-1.8-4.023-4.014-4.023-2.211 0-4.006 1.797-4.006 4.023 0 2.219 1.795 4.022 4.006 4.022zm-8.454-.21c2.106 0 3.8-1.484 3.8-3.587-.001-2.099-1.701-3.2-3.791-3.216l-5.541.702v6.101h5.532zm-18.009-26.067c2.459 0 4.448-2 4.448-4.467 0-2.467-1.989-4.466-4.448-4.466-2.457 0-4.449 1.999-4.449 4.466s1.992 4.467 4.449 4.467zm-4.542 14.456l-.04-.058-2.016-4.694-.003 9.363h6.025l1.316-1.4-3.569-1.374c-.846-.318-1.447-1.038-1.713-1.837zm1.277-.421c.195.438.556.793 1.01.956l6.877 2.549c.88.389 1.908-.015 2.294-.898.386-.889-.015-1.924-.896-2.311l-6.345-2.396-1.96-4.701 1.278-.476 1.661 4.028 4.823 1.788v-4.922l2.56 1.523 1.276 6.428c.313.918 1.304 1.401 2.218 1.084.905-.314 1.386-1.315 1.075-2.229l-1.43-6.191c-.094-.347-.293-.65-.562-.877-.733-.812-4.44-4.957-4.704-5.234-.387-.388-1.272-1.089-2.944-1.089h-6c-3.41 0-4.066 3.48-3.369 5.25l3.138 7.718zm14.742 6.032h-27.033c-.984 0-1.967.555-1.967 1.776v9.224h29v-11z"/></svg>`,
-    desc: "On pose les téléphones, on oublie le quotidien, et on se laisse aller à une journée de douceur absolue. Hammam, jacuzzi, massages côte à côte — tout est pensé pour qu'on ressorte légers, apaisés et encore plus proches. Parce que prendre soin de soi ensemble, c'est aussi une façon de prendre soin de nous.",
+    desc: "Je veux qu'on pose les téléphones, qu'on oublie le quotidien, et qu'on se laisse aller à une journée de douceur absolue. Hammam, jacuzzi, massages côte à côte — tout pensé pour qu'on ressorte légers, apaisés, et encore plus proches. Parce que prendre soin de toi, c'est aussi une façon de prendre soin de nous.",
     highlights: ['Hammam', 'Massage', 'Jacuzzi', 'Zénitude', 'Douceur'],
-    tips: "Réserve un forfait duo à l'avance, surtout le week-end — c'est vite complet. Prévois une tenue décontractée pour l'après-soin.",
+    tips: "Je réserve le forfait duo à l'avance — surtout le week-end, ça part vite. Prévois juste une tenue décontractée pour après.",
   },
   {
     name: 'Randonnée', tag: 'Nature', color: '#98d4a3',
     svg: `<svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><path d="M512 512m-512 0a512 512 0 1 0 1024 0 512 512 0 1 0-1024 0Z" fill="#9AF4EF"/><path d="M983.064 311.158c-17.026 1.798-31.974 10.328-41.882 23.232-3.7-0.88-7.508-1.468-11.478-1.468-7.73 0-14.956 1.922-21.478 5.078-8.126-16.292-24.784-27.586-44.226-27.586-13.342 0-25.398 5.332-34.31 13.902-4.84-1.578-9.912-2.648-15.278-2.648-7.384 0-14.328 1.72-20.626 4.616-9.052-9.708-21.854-15.87-36.174-15.87-9.628 0-18.538 2.862-26.144 7.61-9.082-10.168-22.15-16.696-36.856-16.696-27.388 0-49.588 22.202-49.588 49.588s22.202 49.588 49.588 49.588c9.626 0 18.538-2.862 26.144-7.61 9.082 10.168 22.15 16.696 36.856 16.696 7.384 0 14.328-1.72 20.626-4.616 9.052 9.708 35.442 53.772 49.764 53.772 13.342 0 11.81-43.234 20.722-51.804 4.84 1.578 9.912 2.648 15.278 2.648 7.73 0 14.956-1.922 21.478-5.078 8.126 16.292 24.784 27.588 44.226 27.588 10.526 0 20.246-3.328 28.274-8.92 9.172 5.544 19.808 8.92 31.308 8.92 9.858 0 19.034-2.566 27.268-6.728-6.792-39.818-18.072-78.098-33.492-114.214zM340.304 301.326c-13.27 0-25.256 5.286-34.156 13.774-8.9-8.488-20.886-13.774-34.156-13.774-11.408 0-21.786 4.006-30.164 10.48-8.378-6.474-18.756-10.48-30.164-10.48-15.65 0-29.436 7.394-38.524 18.716-4.376-1.262-8.906-2.154-13.686-2.154-7.666 0-14.838 1.886-21.318 4.992-9.27-8.48-21.5-13.782-35.054-13.782-14.416 0-27.458 5.856-36.894 15.316-7.98-4.038-16.87-6.526-26.424-6.526-0.562 0-1.082 0.15-1.638 0.166a508.228 508.228 0 0 0-30.778 107.856c9.304 6.152 20.426 9.78 32.416 9.78 19.84 0 54.25 15.034 64.92 0 4.88 1.512 8.498-8.69 13.876-8.69 9.436 0 2.684-16.37 10.318-20.754 8.446 6.672 18.976 10.82 30.576 10.82 15.65 0 29.436-7.392 38.524-18.716 4.376 1.262 8.904 2.154 13.686 2.154 11.408 0 21.786-4.006 30.164-10.48 8.378 6.474 18.756 10.48 30.164 10.48 13.27 0 25.254-5.286 34.154-13.774 8.9 8.488 20.886 13.774 34.156 13.774 27.388 0 49.588-22.202 49.588-49.588 0.002-27.39-22.198-49.59-49.586-49.59z" fill="#00C8B4"/><path d="M0.058 514.286C1.296 795.998 229.998 1024 512 1024s510.704-228.002 511.942-509.714H0.058z" fill="#52C883"/><path d="M74.138 777.374C193.334 769.142 353.236 871 496 871c283.602 0 321.334-105.692 460.844-105.692 42.276-74.098 66.698-159.7 67.098-251.024H0.058c0.422 96.3 27.454 186.304 74.08 263.09z" fill="#34BE71"/><path d="M56.852 746.442c121.936-5.094 346.906-16.208 515.424 8.766 142.666 21.142 302.39 0.224 404.092-28.214 30.062-64.752 47.24-136.694 47.574-212.708H0.058c0.366 83.658 20.862 162.538 56.794 232.156z" fill="#00A07D"/><path d="M24.728 668.922c77.938 41.918 206.56 53.846 359.272 37.86 166.666-17.448 334.732-20.354 456.032-10.9 66.948 5.216 117.966 1.722 150.334-2.454 21.254-55.736 33.298-116 33.576-179.142H0.058a510.416 510.416 0 0 0 24.67 154.636z" fill="#00827E"/><path d="M984.73 708.642c6.2-14.888 11.734-30.12 16.528-45.68l-6.816-148.676h-5.434l-4.278 194.356zM48.906 730.312l-9.504-207.29h-5.28l-3.592 163.186a508.776 508.776 0 0 0 18.376 44.104z" fill="#4F6E6E"/><path d="M976.546 377.084c-16.736 0-32.14 20.876-44.626 48.364-4.796 28.15-7.432 57.036-7.432 86.552 0 32.648 3.186 64.536 9.028 95.486 12.2 8.566 26.99 13.682 43.03 13.682 13.88 0 26.718-4.026 37.874-10.592C1020.646 578.668 1024 545.732 1024 512a514.28 514.28 0 0 0-10.006-100.964c-11.032-20.014-23.794-33.952-37.448-33.952zM9.028 607.486c12.2 8.566 26.99 13.682 43.03 13.682 41.478 0 75.104-33.626 75.104-75.102 0-41.478-33.626-168.982-75.104-168.982-16.736 0-32.14 20.876-44.626 48.364C2.636 453.598 0 482.484 0 512c0 32.648 3.186 64.536 9.028 95.486z" fill="#00A07D"/><path d="M978.032 591.57c0 54.878-44.486 99.364-99.364 99.364s-99.364-44.486-99.364-99.364S823.79 368 878.668 368s99.364 168.692 99.364 223.57z" fill="#34BE71"/><path d="M873.516 614.666l-4.738 200h29.172l-9.87-200z" fill="#805F59"/><path d="M878.668 644.818l45.568-37.064 5.468 10.01-51.036 45.57z" fill="#805F59"/><path d="M261.842 583.036c0 56.976-46.188 103.166-103.166 103.166s-103.166-46.188-103.166-103.166S101.7 350.914 158.676 350.914s103.166 175.146 103.166 232.122z" fill="#34BE71"/><path d="M153.328 607.016l-4.92 207.65h30.29l-10.25-207.65z" fill="#805F59"/><path d="M158.676 638.32l47.312-38.48 5.678 10.392-52.99 47.312z" fill="#805F59"/><path d="M439.072 195.682c-5.978 0-11.626 1.176-17.04 2.884-17.15-24.654-45.6-40.862-77.908-40.862s-60.758 16.208-77.908 40.862c-5.414-1.708-11.062-2.884-17.04-2.884-31.462 0-56.968 25.506-56.968 56.968H496.04c0-31.462-25.506-56.968-56.968-56.968z" fill="#FFFFFF"/><path d="M721.366 218.702c-3.802 0-7.396 0.748-10.842 1.834-10.912-15.686-29.012-25.998-49.568-25.998-20.556 0-38.656 10.312-49.566 25.998-3.444-1.086-7.038-1.834-10.842-1.834-20.018 0-36.244 16.228-36.244 36.244h193.306c0-20.016-16.226-36.244-36.244-36.244z" fill="#FFFFFF"/><path d="M602.436 477.928c-1.532-6.15-2.434-12.552-2.434-19.182 0-43.434 34.922-78.646 78-78.646 4.524 0 8.93 0.472 13.242 1.218C704.882 372.924 720.852 368 738 368c49.706 0 90 40.628 90 90.744 0 2.248-0.174 4.454-0.334 6.66C850.202 491.032 864 524.646 864 561.59c0 80.186-64.47 145.192-144 145.192s-144-65.006-144-145.192c0.002-31.184 9.842-60.002 26.436-83.662z" fill="#00A07D"/><path d="M733.108 814.666h-25.206l6.048-255.346h6.554z" fill="#805F59"/><path d="M427.688 443.904c1.7-6.772 2.702-13.822 2.702-21.12 0-47.824-38.768-86.592-86.592-86.592-5.022 0-9.914 0.52-14.7 1.34-15.142-9.24-32.872-14.662-51.908-14.662-55.18 0-99.914 44.732-99.914 99.914 0 2.476 0.192 4.902 0.37 7.334-25.018 28.216-40.336 65.226-40.336 105.902 0 88.288 71.572 159.862 159.862 159.862s159.862-71.572 159.862-159.862c0-34.334-10.924-66.064-29.346-92.116z" fill="#00A07D"/><path d="M311.606 814.666h-27.754L290.512 512h7.216z" fill="#805F59"/><path d="M668.754 369.366c2.042-8.132 3.246-16.6 3.246-25.366 0-57.438-46.562-104-104-104-6.032 0-11.906 0.624-17.656 1.61-18.186-11.1-39.48-17.61-62.344-17.61-66.274 0-120 53.726-120 120 0 2.974 0.232 5.888 0.444 8.808C338.396 386.696 320 431.148 320 480c0 106.038 85.96 192 192 192s192-85.962 192-192c0-41.238-13.12-79.344-35.246-110.634z" fill="#34BE71"/><path d="M529.334 814.666H496l8-337.666h8.666z" fill="#805F59"/><path d="M413.118 132.31c0-22.192 17.99-40.182 40.182-40.182 3.35 0 6.552 0.53 9.662 1.302 10.484-11.322 25.35-18.522 42-18.522 31.702 0 57.402 25.7 57.402 57.402h-149.246z" fill="#FFFFFF"/><path d="M619.742 140.31c0-13.448-10.886-24.35-24.314-24.35-2.026 0-3.964 0.322-5.846 0.788-6.344-6.862-15.34-11.226-25.416-11.226-19.184 0-34.736 15.574-34.736 34.786h90.312z" fill="#FFFFFF"/><path d="M720 194.538c0-15.602 12.63-28.25 28.208-28.25 2.352 0 4.6 0.372 6.782 0.916 7.36-7.96 17.796-13.022 29.484-13.022 22.256 0 40.296 18.068 40.296 40.356H720z" fill="#FFFFFF"/></svg>`,
-    desc: "On part ensemble sur un sentier, loin de tout. Le bruit des pas, l'air frais, les arbres autour de nous — et au bout du chemin, un panorama qu'on n'oubliera pas. Marcher côte à côte en silence ou en discutant de tout et de rien, c'est une façon de se retrouver vraiment. La nature a ce don rare de remettre les choses à leur juste place.",
+    desc: "Je t'emmène sur un sentier, loin de tout. Le bruit de nos pas, l'air frais, les arbres autour de nous — et au bout du chemin, un panorama qu'on n'oubliera pas. Marcher à côté de toi en silence ou en parlant de tout et de rien, c'est une façon de te retrouver vraiment. La nature a ce don rare de remettre les choses à leur juste place.",
     highlights: ['Air frais', 'Panorama', 'Effort partagé', 'Nature', 'Déconnexion'],
-    tips: "Choisis un sentier facile pour commencer, emporte un pique-nique et profite du panorama sans te presser. Bonnes chaussures indispensables.",
+    tips: "Je choisis un sentier facile, j'emporte de quoi pique-niquer, et on profite du panorama sans se presser. Pense à tes bonnes chaussures.",
   },
   {
     name: 'Escape Game', tag: 'Jeu', color: '#87ceeb',
     svg: `<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" fill="#000000"><path d="M103.65 62.7h-.01c-.12-2.45-2.72-4.74-7.21-6.09c-9.61-2.89-20.27-4.58-32.43-4.68c-12.15.1-22.81 1.79-32.43 4.68c-4.49 1.35-7.07 3.64-7.2 6.09h-.02v50.08c-.11 2.8 3.02 5.8 10.26 7.85c7.48 2.12 17.6 3.49 29.38 3.49s21.9-1.37 29.38-3.49c7.59-2.15 10.66-5.34 10.22-8.25h.04V62.7z" fill="#e2a610"/><path fill="#e2a610" d="M24.35 63.43h79.3"/><path d="M71.9 108.24l-4.49-10.58a7.662 7.662 0 0 0 4.33-6.9c0-4.24-3.44-7.67-7.67-7.67s-7.67 3.44-7.67 7.67c0 2.85 1.56 5.34 3.87 6.66l-4.18 10.89c-.53 1.38.49 2.85 1.96 2.85h11.92c1.5 0 2.51-1.54 1.93-2.92z" fill="#4e342e"/><path d="M71.47 107.26H56.48l-.4 1.05c-.53 1.38.49 2.85 1.96 2.85h11.92c1.51 0 2.52-1.54 1.93-2.92l-.42-.98z" fill="#9e740b"/><path d="M94.74 55.95C85.63 53.3 75.52 51.76 64 51.66c-11.52.09-21.63 1.64-30.74 4.28c-9.13 2.65-10.04 9.26 2.89 12.8c7.09 1.94 16.69 3.19 27.85 3.19s20.76-1.25 27.85-3.19c12.93-3.53 12.02-10.15 2.89-12.79z" fill="#fdd835"/><g><path d="M92.15 62.21s-.37 1.72-5.22 1.72s-5.88-1.72-5.88-1.72V40.16C81.05 30.14 73.4 22 63.99 22s-17.06 8.15-17.06 18.16v22.06s-2.11 1.72-5.95 1.72s-5.14-1.72-5.14-1.72V40.16c0-16.14 12.63-29.26 28.15-29.26s28.15 13.13 28.15 29.26v22.05z" fill="#84b0c1" stroke="#84b0c1" stroke-width="1.958" stroke-miterlimit="10"/><path d="M51.31 21.56c-5.14 3.06-5.93 5.13-7.36 6.08c-1.06.7-2.47.14-1.55-2.29c.79-2.08 2.69-6.02 7.43-9.05c8.16-5.22 15.2-4.98 14.82-.99c-.32 3.53-7.86 2.99-13.34 6.25z" fill="#b9e4ea"/></g></svg>`,
-    desc: "Une salle, des énigmes, un chrono qui tourne — et nous deux pour tout résoudre. L'escape game, c'est le meilleur test de complicité qui soit : on réfléchit ensemble, on s'écoute, on s'encourage, et quand on s'en sort, la fierté est double. Même si on ne s'en sort pas, les souvenirs, eux, valent le détour.",
+    desc: "Une salle, des énigmes, un chrono qui tourne — et toi et moi pour tout résoudre. Je sais qu'ensemble on va se chercher, s'écouter, s'encourager — et si on s'en sort, la fierté est double. Et même si on n'y arrive pas, je sais déjà qu'on va bien rigoler. Avec toi, même les défaites sont des bons souvenirs.",
     highlights: ['Énigmes', 'Adrénaline', 'Travail d\'équipe', 'Chrono', 'Victoire'],
-    tips: "Compte environ 1 h de jeu. Optez pour un thème mystère ou aventure, et prévois de quoi célébrer après — que vous vous en sortiez ou pas !",
+    tips: "Compte environ 1 h de jeu. Je choisis un thème mystère ou aventure, et je prévois de quoi fêter ça après — qu'on s'en sorte ou pas !",
   },
   {
     name: 'Peinture', tag: 'Atelier', color: '#e8b4a0',
     svg: `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.997 511.997" fill="#000000"><path style="fill:#ED5564;" d="M400.228,273.809l-193.66,193.653c-10.187,10.188-10.187,26.703,0,36.891c5.078,5.078,11.765,7.641,18.437,7.641s13.344-2.547,18.438-7.656L437.12,310.686L400.228,273.809z"/><path style="fill:#965353;" d="M502.258,208.201c-27.094,0-108.982,4.406-108.982,59.937c0,27.094,21.953,49.047,49.031,49.047c27.094,0,49.045-21.953,49.045-49.047C491.352,241.06,529.336,208.201,502.258,208.201z"/><path style="fill:#FFD2A6;" d="M350.621,46.267c-14.438-14.64-32.156-25.984-52.703-33.734c-22.047-8.312-47.507-12.531-75.71-12.531c-6.312,0-12.859,0.203-19.453,0.625c-32.124,2.047-61.89,9.188-88.452,21.234C89.102,33.298,67.242,48.892,49.336,68.219c-34.75,37.5-52.14,86.202-48.968,137.169c3.563,57.671,19.797,102.625,48.234,133.609c13.843,15.092,30.468,26.623,49.452,34.279c18.531,7.469,39.343,11.266,61.843,11.266c60.874,0,78.686-39.25,91.717-67.904c6.625-14.594,12.343-27.203,21.539-31.906c6.859-3.516,17.188-4.906,28.094-6.359c19.688-2.641,42.016-5.641,60.404-21.64c20.797-18.109,31.234-48.859,31.875-94.045C394.197,116.359,378.947,75.016,350.621,46.267z M298.668,223.997c-17.672,0-32.008-14.328-32.008-31.999s14.336-32,32.008-32s32,14.328,32,32S316.34,223.997,298.668,223.997z"/><path style="fill:#F4BE8E;" d="M298.668,234.654c-23.531,0-42.679-19.141-42.679-42.655c0-23.531,19.148-42.671,42.679-42.671s42.672,19.141,42.672,42.671C341.34,215.513,322.199,234.654,298.668,234.654z M298.668,170.655c-11.766,0-21.328,9.578-21.328,21.343c0,11.75,9.562,21.327,21.328,21.327s21.328-9.578,21.328-21.327C319.996,180.233,310.434,170.655,298.668,170.655z"/><path style="fill:#A0D468;" d="M234.661,74.657c0,11.781-9.547,21.343-21.328,21.343s-21.343-9.562-21.343-21.343s9.562-21.328,21.343-21.328C225.114,53.329,234.661,62.875,234.661,74.657z"/><path style="fill:#8CC153;" d="M213.333,42.657c-17.655,0-31.999,14.359-31.999,32c0,17.656,14.344,32,31.999,32c17.641,0,32-14.344,32-32C245.333,57.017,230.974,42.657,213.333,42.657z M213.333,85.329c-5.89,0-10.671-4.781-10.671-10.672c0-5.875,4.781-10.656,10.671-10.656c5.875,0,10.656,4.781,10.656,10.656C223.989,80.547,219.208,85.329,213.333,85.329z"/><path style="fill:#AC92EB;" d="M149.334,106.656c0,11.781-9.562,21.343-21.343,21.343s-21.328-9.562-21.328-21.343s9.547-21.328,21.328-21.328C139.772,85.329,149.334,94.875,149.334,106.656z"/><path style="fill:#967ADC;" d="M127.991,74.657c-17.641,0-32,14.359-32,32c0,17.656,14.359,31.999,32,31.999c17.656,0,32-14.343,32-31.999C159.991,89.016,145.647,74.657,127.991,74.657z M127.991,117.328c-5.875,0-10.656-4.781-10.656-10.671c0-5.875,4.781-10.656,10.656-10.656c5.89,0,10.671,4.781,10.671,10.656C138.663,112.547,133.881,117.328,127.991,117.328z"/><path style="fill:#5D9CEC;" d="M106.663,181.327c0,11.781-9.547,21.327-21.327,21.327c-11.781,0-21.344-9.546-21.344-21.327c0-11.781,9.562-21.328,21.344-21.328C97.116,159.999,106.663,169.546,106.663,181.327z"/><path style="fill:#4A89DC;" d="M85.336,149.327c-17.656,0-32,14.359-32,32c0,17.64,14.343,31.999,32,31.999c17.64,0,31.999-14.358,31.999-31.999C117.335,163.686,102.976,149.327,85.336,149.327z M85.336,191.998c-5.891,0-10.672-4.796-10.672-10.671s4.781-10.672,10.672-10.672c5.875,0,10.655,4.797,10.655,10.672S91.21,191.998,85.336,191.998z"/><path style="fill:#ED5564;" d="M117.335,266.653c0,11.781-9.562,21.344-21.344,21.344c-11.78,0-21.327-9.562-21.327-21.344c0-11.781,9.547-21.328,21.327-21.328C107.772,245.326,117.335,254.872,117.335,266.653z"/><path style="fill:#DA4453;" d="M95.991,234.654c-17.64,0-31.999,14.359-31.999,32s14.359,32,31.999,32c17.656,0,32-14.359,32-32S113.647,234.654,95.991,234.654z M95.991,277.325c-5.875,0-10.655-4.781-10.655-10.672c0-5.875,4.781-10.656,10.655-10.656c5.891,0,10.672,4.781,10.672,10.656C106.663,272.544,101.882,277.325,95.991,277.325z"/></svg>`,
-    desc: "Pinceaux en main, on crée — sans pression, sans jugement. Une toile chacun ou une seule à quatre mains, peu importe. Ce qui compte, c'est ce moment suspendu où on s'exprime librement, où on se découvre sous un angle nouveau. Et à la fin, on repart avec une œuvre qui ressemble à notre histoire : unique, imparfaite, et précieuse.",
-    highlights: ['Créativité', 'Toile à garder', 'Fou rires', 'Peinture', 'Originalité'],
-    tips: "Les soirées Paint & Wine combinent atelier guidé et verre de vin — ambiance détendue garantie, même sans talent artistique.",
+    desc: "Pinceaux en main, je veux qu'on crée ensemble — sans pression, sans jugement. Une toile chacun ou une seule à quatre mains, peu importe. Ce que j'aime dans cette idée, c'est l'idée de te découvrir sous un nouvel angle, libre et créative. Et à la fin, on repart avec une œuvre qui ressemble à nous : unique, imparfaite, et précieuse.",
+    highlights: ['Créativité', 'Toile à garder', 'Fous rires', 'Peinture', 'Originalité'],
+    tips: "J'ai pensé à une soirée Paint & Wine — atelier guidé avec un verre de vin, ambiance détendue garantie, même sans talent artistique.",
   },
   {
     name: 'Concert', tag: 'Spectacle', color: '#a8d4f5',
     svg: `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 496.2 496.2" fill="#000000"><path style="fill:#EA4949;" d="M496.2,248.1C496.2,111.1,385.1,0,248.1,0C111.1,0,0,111.1,0,248.1s111.1,248.1,248.1,248.1S496.2,385.1,496.2,248.1z"/><path style="fill:#0B296B;" d="M434.4,297.3c-0.4-16.3-11.6-29.5-25.3-29.5c-4,0-7.8,1.1-11.2,3.1c2.6-6.5,4.6-11.9,5.2-13.3c1.6-4.2,3.1-11.4,3.1-11.4l0,0c0-0.1,0-0.1,0.1-0.2l3.1-9c0.2-0.6,0.1-1.2-0.1-1.7c0-0.6-0.1-1.2-0.8-1.4c-0.6-0.2-1.1,0.2-1.5,0.7c-0.5,0.3-1,0.8-1.1,1.4l-3,8.3l-0.2-0.1l4.3-15.9c0.2-0.7,0.1-1.4-0.2-2c0-0.8-0.2-1.5-1-1.7c-0.7-0.2-1.3,0.2-1.7,0.8c-0.6,0.3-1.2,0.9-1.4,1.7l-4.5,15l-0.3-0.2l4.6-18.4c0.2-0.7,0.1-1.4-0.3-1.9c0-0.7-0.3-1.4-1.1-1.6c-0.8-0.2-1.3,0.3-1.7,1c-0.5,0.3-0.8,0.8-1,1.4l-5.3,18.1l-0.4-0.1l3.5-15.4c0.2-0.6,0.1-1.2-0.2-1.7c0-0.8-0.2-1.6-1.1-1.8c-0.8-0.2-1.4,0.4-1.7,1.1c-0.4,0.3-0.8,0.8-0.9,1.3l-4.2,15.6l-1.6,3.9c-0.2-1.7-0.5-3.8-1.2-5.6c-0.2-0.4-1.7-3.4-3.5-2.4c0-0.1-0.1-0.1-0.2-0.2c0,0-1.2-0.1-0.2,4.4l0,0c0,0.5,0.1,1.1,0.1,1.7c0,2.8-0.2,5.6,0,6.9c0.4,2.4,0.5,6.4,0.5,6.4s0.5,6.9,0.6,8.3l-5.5,14.8c-3.9-3-8.6-4.8-13.7-4.8c-12.2,0-22.5,10.4-24.8,24.2h-74.7c0-0.7,0.1-1.5,0.1-2.2c0-16.8-11.4-30.4-25.4-30.4s-25.4,13.6-25.4,30.4c0,0.7,0,1.5,0.1,2.2h-42.2c0.1-1.2,0.2-2.4,0.2-3.6c0-5.4-1.2-10.5-3.3-14.9c4-10.1,8.1-20.5,8.9-22.6c1.6-4.2,3.1-11.4,3.1-11.4l0,0c0-0.1,0-0.1,0.1-0.2l3.1-9c0.2-0.6,0.1-1.2-0.1-1.7c0-0.6-0.1-1.2-0.8-1.4c-0.6-0.2-1.1,0.2-1.5,0.7c-0.5,0.3-1,0.8-1.1,1.4l-3,8.3l-0.3-0.1l4.3-15.9c0.2-0.7,0.1-1.4-0.2-2c0-0.8-0.2-1.5-1-1.7c-0.7-0.2-1.3,0.2-1.7,0.8c-0.6,0.3-1.2,0.9-1.4,1.7l-4.5,15l-0.3-0.2l4.6-18.4c0.2-0.7,0.1-1.4-0.3-1.9c0-0.7-0.3-1.4-1.1-1.6c-0.8-0.2-1.3,0.3-1.7,1c-0.5,0.3-0.8,0.8-1,1.4l-5.3,18.1l-0.4-0.1l3.5-15.4c0.2-0.6,0.1-1.2-0.2-1.7c0-0.8-0.2-1.6-1.1-1.8c-0.8-0.2-1.4,0.4-1.7,1.1c-0.4,0.3-0.8,0.8-0.9,1.3l-4.2,15.6l-1.6,3.9c-0.2-1.7-0.5-3.8-1.2-5.6c-0.2-0.4-1.7-3.4-3.5-2.4c0-0.1-0.1-0.1-0.2-0.2c0,0-1.2-0.1-0.2,4.5l0,0c0,0.5,0.1,1.1,0.1,1.7c0,2.8-0.2,5.6,0,6.9c0.4,2.4,0.5,6.4,0.5,6.4s0.5,6.9,0.6,8.3l-1.4,3.7c-2.8-1.3-5.9-2-9.2-2c-14,0-25.4,13.6-25.4,30.4c0,1.2,0.1,2.4,0.2,3.6H30.2l14.2-44.6c1.1-1.4,7-7.9,7-7.9s3.2-3.9,5.5-6c1.2-1.1,3.2-4.1,5.4-6.9c0.5-0.6,0.9-1.1,1.4-1.7l0,0c4.5-3.8,3.2-4.7,3.2-4.7c-0.1,0-0.2,0.1-0.3,0.1c-1.1-2.4-4.9-0.5-5.4-0.3c-2.1,1.2-4.1,3.1-5.6,4.7l1-3.3c0.1-0.1,0.1-0.2,0.2-0.3l9.5-19.8c0.3-0.7,0.4-1.4,0.2-2.1c0.3-1,0.2-2-0.7-2.5c-1-0.5-1.9,0-2.6,0.8c-0.6,0.3-1.2,0.8-1.6,1.5l-9.2,18.1l-0.5-0.2l7.7-23.1c0.3-0.7,0.2-1.5-0.1-2.2c0.1-0.9-0.1-1.8-1-2.2s-1.7,0.1-2.3,0.9c-0.7,0.3-1.4,0.9-1.7,1.8l-8.4,22.3c0,0-0.1,0-0.1-0.1c-0.4-0.2-0.3-3.6-2.2-3.8c-2-0.3-3.8,0.1-4.3,0.7c-1,1.2-1.8,0.5-2.9,0.6c-1,0-2.1-0.1-3.1,1.3c-0.6,0.8-0.6,2.7-0.8,2.9c-2,2.9-3.6,6.9-4.6,10.4c-1.3,4.3-14.4,47-19.6,66H5c6.1,30.4,17.8,58.8,33.9,84.1h418.5c12.7-19.9,22.7-41.8,29.3-65L434.4,297.3z"/><path style="fill:#011030;" d="M248.1,496.2c114.5,0,210.8-77.5,239.4-183h-1.4c-0.3-23.8-16.5-43-36.5-43l0,0c2-13.9,3.7-26,4-28.9c1-7.5,0.6-19.9,0.6-19.9l0,0c0-0.1,0-0.2,0-0.3l1.5-16.1c0.1-1.1-0.3-2.1-0.9-2.8c-0.2-1.1-0.7-2-1.8-2.1c-1.1-0.1-1.8,0.7-2.1,1.7c-0.7,0.6-1.3,1.6-1.3,2.8l-1.6,14.8l-0.5-0.1l0.8-27.7c0.1-1.3-0.4-2.4-1.1-3.2c-0.3-1.3-0.9-2.3-2.3-2.4c-1.3-0.1-2,0.8-2.4,2c-1,0.7-1.6,1.9-1.7,3.3l-1.5,26.4l-0.6-0.1l0.4-32c0-1.2-0.4-2.3-1.2-3c-0.4-1.2-1.1-2.2-2.4-2.1c-1.3,0-2,1-2.3,2.2c-0.7,0.7-1.1,1.6-1.1,2.7l-1.6,31.8h-0.7l-0.3-26.6c0-1.1-0.3-2-0.9-2.7c-0.3-1.4-1-2.6-2.5-2.5c-1.4,0-2.1,1.2-2.4,2.6c-0.6,0.7-0.9,1.6-1,2.6l-0.7,27.3l-1,7c-0.9-2.7-2.3-6.1-4.2-8.7c-0.4-0.6-4.4-5.4-7-2.2c-0.9,1.2,1.2,5,2.2,9.5c1.1,4.7,1.8,9.3,2.7,11.3c1.7,3.7,3.4,10.3,3.4,10.3s3.6,11.1,4.2,13.4l-4.2,33.9c-3,6.2-4.7,13.4-4.9,21h-2.9c-6.9-17.1-21.6-28.9-38.6-28.9s-31.6,11.6-38.6,28.7h-17.4l11.3-36.4c2.1-2.5,13.2-14.7,13.2-14.7s6-7.4,10.3-11.2c2.3-2.1,6-7.6,10-12.9c3.9-5.1,8.8-8.8,8.3-10.9c-1.5-5.6-9.4-1.7-10.3-1.2c-3.9,2.2-7.7,5.8-10.4,8.8l1.8-6.1c0.1-0.2,0.3-0.4,0.4-0.7l17.8-36.9c0.6-1.3,0.7-2.6,0.5-3.8c0.5-1.9,0.4-3.8-1.4-4.8s-3.5,0-4.8,1.6c-1.2,0.5-2.3,1.5-2.9,2.8l-17.6,33.4l-1-0.4l14.3-43.2c0.5-1.4,0.4-2.8-0.1-4.1c0.2-1.8-0.2-3.4-1.9-4.1c-1.7-0.7-3.1,0.2-4.2,1.6c-1.4,0.6-2.6,1.7-3.1,3.3L330.3,215c-0.1,0-0.1-0.1-0.2-0.1c-0.8-0.3-0.6-6.7-4.1-7.2c-3.7-0.5-7.1,0.1-8,1.3c-1.9,2.3-3.3,1-5.4,1.1c-1.9,0.1-3.9-0.2-5.7,2.4c-1.1,1.5-1.2,5-1.5,5.4c-3.7,5.4-6.7,13-8.6,19.4c-1.4,4.7-8.1,27.2-14.7,50.5c-4.7-2.1-9.7-3.2-14.9-3.2c-15.7,0-29.5,10.1-36.9,25.2l-5.6-18.5c0.3-2.6,2.1-15.6,2.1-15.6s0.6-7.5,1.8-12c0.6-2.4,0.6-7.7,0.9-13c0.3-5.1,1.9-9.8,0.6-10.8c-3.4-3-6.9,3-7.3,3.8c-1.6,3.2-2.5,7.3-3,10.4l-1.6-4.8c0-0.2,0-0.4,0-0.6l-4.7-32.3c-0.2-1.1-0.7-2.1-1.4-2.7c-0.5-1.5-1.4-2.7-3-2.5c-1.7,0.2-2.3,1.6-2.4,3.2c-0.6,0.9-0.8,2-0.7,3.1l3.3,29.8l-0.8,0.2c0,0-1.4-3.8-5.4-2.8s-3,2.8-4.5,3c-1.4,0.2-3-2.6-5.5-1.3c-2.7,1.3-4.6,3.2-4.7,4.4c-0.3,2.4-1.8,2.1-3.1,3.1c-1.2,0.9-2.7,1.6-2.7,4.1c0,1.5,1.4,3.8,1.4,4.2c0,5.2,1.4,11.5,2.9,16.6c1,3.4,5.8,18.4,11.1,34.8h-10.1c-7-5.8-15.4-9.3-24.5-9.3s-17.6,3.4-24.5,9.3h-23.8c11.4-28.5,22.6-57.4,24.8-63.2c4.5-11.9,8.8-32.6,8.8-32.6h-0.1c0.1-0.2,0.1-0.4,0.2-0.5l8.8-25.8c0.5-1.8,0.4-3.5-0.3-4.9c0.1-1.8-0.3-3.5-2.2-4.1c-1.7-0.6-3.2,0.5-4.1,1.9c-1.5,0.7-2.7,2.2-3.3,4.1l-8.5,23.8l-0.7-0.3l12.2-45.4c0.6-2,0.3-4.1-0.6-5.7c0.1-2.2-0.6-4.2-2.8-4.8c-2-0.6-3.7,0.5-4.8,2.3c-1.9,0.8-3.4,2.5-4,4.8l-12.8,42.9l-0.9-0.4l13.2-52.6c0.5-2,0.2-3.9-0.8-5.5c-0.1-2.1-0.9-3.9-3.1-4.4c-2.2-0.5-3.7,0.9-4.7,2.8c-1.4,0.8-2.4,2.2-2.9,3.9l-15.1,51.7l-1.2-0.3l10-43.9c0.4-1.7,0.2-3.4-0.5-4.8c0-2.4-0.7-4.6-3.1-5.2c-2.3-0.5-4,1.1-5,3.3c-1.2,0.9-2.2,2.2-2.6,3.9l-11.9,44.7l-4.4,11.2c-0.5-4.8-1.4-11-3.5-16c-0.5-1.1-4.7-9.7-9.9-6.9c-0.1-0.2-0.3-0.4-0.4-0.6c0,0-3.3-0.2-0.6,12.7l0,0c0.1,1.6,0.2,3.2,0.2,4.8c-0.1,8.1-0.6,16,0.1,19.7c1.3,6.8,1.5,18.2,1.5,18.2s1.3,17.5,1.6,22.9c-5.5-3-11.6-4.8-18-4.8c-4.3,0-10,3-16.3,7.6c-3.3-0.9-6.8-1.4-10.4-1.4c-14.2,0-26.7,7.5-33.9,18.8C20.5,404.5,123.6,496.2,248.1,496.2z"/></svg>`,
-    desc: "Concert, théâtre ou festival — peu importe la scène, ce qui compte c'est d'y être ensemble. La musique live qui fait vibrer, une pièce qui nous transporte, ou l'ambiance unique d'un festival sous le ciel — chaque fois, c'est une émotion partagée qu'on ne peut pas revivre seul. Ces soirs-là ont quelque chose de magique, et on en parle encore longtemps après.",
+    desc: "Concert, théâtre ou festival — peu importe la scène, ce qui compte c'est d'y être avec toi. La musique live qui fait vibrer, une pièce qui nous transporte, ou l'ambiance d'un festival sous le ciel — chaque fois, c'est une émotion que je veux vivre à tes côtés. Ces soirs-là ont quelque chose de magique, et j'aime qu'on en parle encore longtemps après.",
     highlights: ['Live', 'Émotion', 'Soirée habillée', 'Découverte', 'Souvenir'],
-    tips: "Consulte les événements à venir dans ta ville — concert live, festival ou soirée jazz. Réserve tôt pour les meilleures places.",
+    tips: "Je guette les événements à venir — concert live, festival ou soirée jazz. Et je réserve tôt pour qu'on ait les meilleures places.",
   },
   {
     name: 'Surprise', tag: 'Mystère', color: '#f0c080',
@@ -294,3 +294,139 @@ function resetWheel() {
   document.getElementById('spinBtn').disabled = false;
   window.scrollTo({ top: document.querySelector('.wheel-section').offsetTop, behavior: 'smooth' });
 }
+
+/* ════════════════════════════════════════════
+   CUSTOM VIDEO PLAYER
+════════════════════════════════════════════ */
+(function() {
+  const container     = document.getElementById('videoPlayer');
+  const video         = document.getElementById('mainVideo');
+  const overlay       = document.getElementById('vpOverlay');
+  const bigPlay       = document.getElementById('vpBigPlay');
+  const playPauseBtn  = document.getElementById('vpPlayPause');
+  const timeEl        = document.getElementById('vpTime');
+  const progressWrap  = document.getElementById('vpProgressWrap');
+  const progressFill  = document.getElementById('vpProgressFill');
+  const progressThumb = document.getElementById('vpProgressThumb');
+  const muteBtn       = document.getElementById('vpMute');
+  const fsBtn         = document.getElementById('vpFullscreen');
+
+  if (!video) return;
+
+  function fmt(s) {
+    if (isNaN(s)) return '0:00';
+    const m = Math.floor(s / 60);
+    return m + ':' + String(Math.floor(s % 60)).padStart(2, '0');
+  }
+
+  function setPlayIcons(playing) {
+    playPauseBtn.querySelector('.ic-play').style.display  = playing ? 'none' : '';
+    playPauseBtn.querySelector('.ic-pause').style.display = playing ? ''     : 'none';
+  }
+
+  function setBigIcon(type) {
+    bigPlay.querySelector('.bp-play').style.display  = type === 'play'  ? '' : 'none';
+    bigPlay.querySelector('.bp-pause').style.display = type === 'pause' ? '' : 'none';
+  }
+
+  function updateProgress() {
+    if (!video.duration) return;
+    const pct = (video.currentTime / video.duration) * 100;
+    progressFill.style.width = pct + '%';
+    progressThumb.style.left = pct + '%';
+    timeEl.textContent = fmt(video.currentTime) + ' / ' + fmt(video.duration);
+  }
+
+  // ── play / pause ──
+  function togglePlay() {
+    if (video.paused) video.play();
+    else video.pause();
+  }
+
+  let hideTimer;
+  function showControls() {
+    container.classList.add('show-controls');
+    clearTimeout(hideTimer);
+    if (!video.paused) {
+      hideTimer = setTimeout(() => container.classList.remove('show-controls'), 2800);
+    }
+  }
+
+  video.addEventListener('play', () => {
+    overlay.classList.add('hidden');
+    container.classList.remove('paused');
+    setPlayIcons(true);
+    showControls();
+  });
+  video.addEventListener('pause', () => {
+    overlay.classList.remove('hidden');
+    container.classList.add('paused');
+    clearTimeout(hideTimer);
+    container.classList.add('show-controls');
+    setPlayIcons(false);
+    setBigIcon(video.currentTime > 0 ? 'pause' : 'play');
+  });
+  video.addEventListener('ended', () => {
+    overlay.classList.remove('hidden');
+    container.classList.add('paused');
+    setPlayIcons(false);
+    setBigIcon('play');
+    video.currentTime = 0;
+    updateProgress();
+  });
+  video.addEventListener('timeupdate', updateProgress);
+  video.addEventListener('loadedmetadata', updateProgress);
+
+  container.addEventListener('click', e => {
+    if (!e.target.closest('.vp-controls') && !e.target.closest('.vp-big-play')) togglePlay();
+  });
+  bigPlay.addEventListener('click', e => { e.stopPropagation(); togglePlay(); });
+  playPauseBtn.addEventListener('click', e => { e.stopPropagation(); togglePlay(); });
+  container.addEventListener('mousemove', showControls);
+  container.addEventListener('touchstart', showControls, { passive: true });
+
+  // ── seek ──
+  let seeking = false;
+  function seekTo(clientX) {
+    const rect = progressWrap.getBoundingClientRect();
+    const pct  = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    video.currentTime = pct * video.duration;
+  }
+  progressWrap.addEventListener('mousedown', e => { seeking = true; seekTo(e.clientX); e.preventDefault(); });
+  document.addEventListener('mousemove',  e => { if (seeking) seekTo(e.clientX); });
+  document.addEventListener('mouseup',    () => { seeking = false; });
+  progressWrap.addEventListener('touchstart', e => { seeking = true; seekTo(e.touches[0].clientX); }, { passive: true });
+  document.addEventListener('touchmove',  e => { if (seeking) seekTo(e.touches[0].clientX); }, { passive: true });
+  document.addEventListener('touchend',   () => { seeking = false; });
+
+  // ── mute ──
+  muteBtn.addEventListener('click', e => {
+    e.stopPropagation();
+    video.muted = !video.muted;
+    muteBtn.querySelector('.ic-vol').style.display   = video.muted ? 'none' : '';
+    muteBtn.querySelector('.ic-muted').style.display = video.muted ? ''     : 'none';
+  });
+
+  // ── fullscreen ──
+  fsBtn.addEventListener('click', e => {
+    e.stopPropagation();
+    if (!document.fullscreenElement) container.requestFullscreen().catch(() => {});
+    else document.exitFullscreen();
+  });
+  document.addEventListener('fullscreenchange', () => {
+    const full = !!document.fullscreenElement;
+    fsBtn.querySelector('.ic-fs').style.display     = full ? 'none' : '';
+    fsBtn.querySelector('.ic-fs-exit').style.display = full ? ''     : 'none';
+  });
+
+  // ── keyboard (Space / ← / →) ──
+  document.addEventListener('keydown', e => {
+    const tag = document.activeElement.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'BUTTON') return;
+    if (e.code === 'Space')       { e.preventDefault(); togglePlay(); }
+    if (e.code === 'ArrowRight')  { video.currentTime = Math.min(video.duration, video.currentTime + 5); }
+    if (e.code === 'ArrowLeft')   { video.currentTime = Math.max(0, video.currentTime - 5); }
+  });
+
+  setPlayIcons(false);
+})();

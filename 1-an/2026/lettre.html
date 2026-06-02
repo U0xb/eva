@@ -39,8 +39,7 @@
   }
   </script>
 
-  <meta name="theme-color" content="#0d0014" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#fce4ec" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d0014">
 
   <link rel="icon" type="image/svg+xml" href="../../favicon_eva.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -214,13 +213,56 @@
   <h2>Notre histoire en images</h2>
   <p class="vs-sub">Un an de moments précieux, rien que pour toi.</p>
   <div class="video-wrapper">
-    <iframe
-      src="https://www.youtube.com/embed/7f3c_dTWUg8?rel=0"
-      title="Notre histoire"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
+    <div class="vp-container paused" id="videoPlayer">
+      <video playsinline preload="metadata" poster="videos/notre-histoire-poster.jpg" id="mainVideo">
+        <source src="videos/notre-histoire.mp4" type="video/mp4">
+      </video>
+
+      <div class="vp-overlay" id="vpOverlay">
+        <button class="vp-big-play" id="vpBigPlay" aria-label="Lire / Pause">
+          <svg class="bp-play" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="40" cy="40" r="38" fill="rgba(192,57,94,0.82)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+            <polygon points="33,25 33,55 59,40" fill="white"/>
+          </svg>
+          <svg class="bp-pause" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" style="display:none">
+            <circle cx="40" cy="40" r="38" fill="rgba(192,57,94,0.82)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+            <rect x="26" y="25" width="9" height="30" rx="2" fill="white"/>
+            <rect x="45" y="25" width="9" height="30" rx="2" fill="white"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="vp-controls" id="vpControls">
+        <button class="vp-btn" id="vpPlayPause" aria-label="Lecture / Pause">
+          <svg class="ic-play" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21"/></svg>
+          <svg class="ic-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none"><rect x="5" y="3" width="4" height="18" rx="1"/><rect x="15" y="3" width="4" height="18" rx="1"/></svg>
+        </button>
+        <span class="vp-time" id="vpTime">0:00 / 0:00</span>
+        <div class="vp-progress-wrap" id="vpProgressWrap">
+          <div class="vp-progress-bg"></div>
+          <div class="vp-progress-fill" id="vpProgressFill"></div>
+          <div class="vp-progress-thumb" id="vpProgressThumb"></div>
+        </div>
+        <button class="vp-btn" id="vpMute" aria-label="Couper / Rétablir le son">
+          <svg class="ic-vol" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M11 5L6 9H2v6h4l5 4V5z" fill="currentColor" stroke="none"/>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+          </svg>
+          <svg class="ic-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none">
+            <path d="M11 5L6 9H2v6h4l5 4V5z" fill="currentColor" stroke="none"/>
+            <line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/>
+          </svg>
+        </button>
+        <button class="vp-btn" id="vpFullscreen" aria-label="Plein écran">
+          <svg class="ic-fs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M8 3H5a2 2 0 0 0-2 2v3M16 3h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3M16 21h3a2 2 0 0 0 2-2v-3"/>
+          </svg>
+          <svg class="ic-fs-exit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="display:none">
+            <path d="M8 3v3a2 2 0 0 1-2 2H3M16 3v3a2 2 0 0 0 2 2h3M8 21v-3a2 2 0 0 0-2-2H3M16 21v-3a2 2 0 0 1 2-2h3"/>
+          </svg>
+        </button>
+      </div>
+    </div>
   </div>
   <p class="scroll-hint-video">↓ Redescends pour la suite ↓</p>
 </section>

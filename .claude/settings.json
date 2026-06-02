@@ -4,7 +4,10 @@
       "Bash(Move-Item -Path \"js\\\\generate-sitemap.js\" -Destination \"generate-sitemap.js\")",
       "PowerShell(Move-Item -Path \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\js\\\\generate-sitemap.js\" -Destination \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\generate-sitemap.js\")",
       "Bash(git mv *)",
-      "Bash(grep -E \"\\\\.\\(css|js\\)$\")"
+      "Bash(grep -E \"\\\\.\\(css|js\\)$\")",
+      "Bash(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\1-an\\\\2026\\\\videos\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\1-an\\\\2026\\\\videos\")",
+      "PowerShell(Rename-Item \"c:\\\\Users\\\\Redouane\\\\Documents\\\\Eva\\\\1-an\\\\2026\\\\videos\\\\notre-histoire.mp4.mp4\" \"notre-histoire.mp4\")"
     ]
   }
 }
