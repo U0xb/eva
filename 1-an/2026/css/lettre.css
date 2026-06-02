@@ -694,6 +694,87 @@ body {
 }
 .spin-again:hover { background: var(--rose); color: white; }
 
+.result-conclusion {
+  padding: 36px 20px 0;
+  font-style: italic;
+  color: var(--rose);
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.6rem;
+}
+
+/* ══ FÉLICITATIONS OVERLAY ══ */
+#congrats-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(30, 5, 15, .5);
+  align-items: center;
+  justify-content: center;
+}
+#congrats-overlay.visible { display: flex; animation: fadeIn .4s ease both; }
+#congrats-overlay.hiding  { animation: fadeOut .4s ease both; }
+@keyframes fadeIn  { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+
+#congrats-box {
+  background: white;
+  border-radius: 28px;
+  padding: 44px 56px;
+  text-align: center;
+  box-shadow: 0 24px 80px rgba(192,57,94,.35);
+  animation: popIn .55s cubic-bezier(.34,1.56,.64,1) both;
+  max-width: 360px;
+  width: 90%;
+}
+#congrats-emoji {
+  font-size: 3.5rem;
+  animation: bounce 1s ease infinite alternate;
+  display: block;
+  margin-bottom: 8px;
+}
+@keyframes bounce {
+  from { transform: translateY(0) scale(1); }
+  to   { transform: translateY(-10px) scale(1.1); }
+}
+#congrats-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.8rem;
+  color: var(--rose);
+  margin-bottom: 6px;
+  line-height: 1.1;
+}
+#congrats-sub {
+  font-size: .95rem;
+  color: #8a6070;
+  margin-bottom: 6px;
+}
+#congrats-name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  color: var(--rose);
+  font-weight: bold;
+  animation: shimmer 1.5s ease infinite alternate;
+}
+@keyframes shimmer {
+  from { opacity: .75; }
+  to   { opacity: 1; }
+}
+
+/* confetti */
+.confetti-piece {
+  position: fixed;
+  top: -20px;
+  pointer-events: none;
+  z-index: 400;
+  animation: confettiFall linear forwards;
+}
+@keyframes confettiFall {
+  0%   { transform: translateY(0) rotate(0deg);   opacity: 1; }
+  100% { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+}
+
 #result-tips {
   font-style: italic;
   font-size: .88rem;
@@ -755,13 +836,14 @@ body {
 /* ══════════════════ FOOTER ══════════════════ */
 .love-footer {
   text-align: center;
-  padding: 64px 20px 100px;
+  padding: 0 20px 100px;
   border-top: 1px solid #f2dde4;
 }
 .lf-deco {
   font-size: 2.8rem;
   color: var(--rose-l);
   display: block;
+  margin-top: 52px;
   margin-bottom: 28px;
   animation: lfHeart 2.5s ease-in-out infinite;
 }
