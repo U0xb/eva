@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cpe0004089/public_html/evavanhh.fr/
+    - export DEPLOYPATH=/home/cpe0004089/evavanhh.fr/
     - /bin/cp -R * $DEPLOYPATH
