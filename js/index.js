@@ -332,5 +332,3 @@ function launchFloatingHearts() {
   }, 160);
 }
 
-// ── Espace pour prévisualiser ─────────────────
-document.addEventListener('keydown', e => { if (e.code === 'Space') triggerCelebration(); });
